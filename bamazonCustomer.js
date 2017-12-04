@@ -38,7 +38,7 @@ function whatItem(){
     },
     {
         name: 'stockNumber',
-        message: 'How many units would you like to puchase?'
+        message: 'How many units would you like to purchase?'
     },
     ]).then(function(answer){
         insertItem(answer.name, answer.stockNumber);
